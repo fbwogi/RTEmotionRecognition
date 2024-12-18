@@ -1,6 +1,7 @@
 # RTEmotionRecognition
 
 Abstract
+
 The project seeks to design and implement a real-time emotion recognition system for music
 using the ReSpeaker HAT microphone array. It will differentiate emotions into positive, negative,
 and neutral from streamed audio by extracting features such as tempo, pitch, and lyrics. Libraries
@@ -9,6 +10,7 @@ demonstrate the viability of real-time streaming and classification with potenti
 music therapy, entertainment systems, social media platforms, and interactive music experiences.
 
 Introduction
+
 Music is a universal medium that has existed throughout human history and, according to some
 belief systems, predates humans. It generates strong emotional responses, and in recognizing
 these responses in real-time, we can change our approach to musical interactions, enabling
@@ -24,6 +26,7 @@ especially when working with continuous audio input, and it makes real-time audi
 it provides immediate insights and feedback.
 
 Background
+
 Emotion recognition in music is a growing research field within audio processing and machine
 learning. Unlike speech emotion recognition, which focuses more on linguistics, music emotion
 recognition relies on complex audio features, including speech, pitch, rhythm, tempo, and
@@ -31,7 +34,8 @@ spectral contrast. It has involved machine learning algorithms such as k-nearest
 Support Vector Machines, and Neural Networks to predict emotional states based on extracted
 features.
 
-Real-time audio processing introduces more challenges than offline analysis. Capturing and analyzing live audio demands efficient feature extraction and classification pipelines to reduce
+Real-time audio processing introduces more challenges than offline analysis. Capturing and analyzing 
+live audio demands efficient feature extraction and classification pipelines to reduce
 latency. Libraries and tools like LibROSA simplify feature extraction as they possess built-in
 functions that calculate tempo, chroma, and spectral features, while PyAudio enables real-time
 audio streaming from devices like ReSpeaker HAT, which is a microphone array add-on for
