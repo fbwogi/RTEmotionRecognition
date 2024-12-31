@@ -47,3 +47,5 @@ extraction, even in noisy environments. By combining the hardware capabilities o
 and ReSpeaker HAT with the software Python-based libraries for audio processing and machine
 learning, this project encapsulates real-time audio and language processing concepts with both
 theoretical and practical implementation.
+
+Here is a link to the demo: https://www.youtube.com/watch?v=QlCLvyS1m_A
